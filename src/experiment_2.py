@@ -13,3 +13,7 @@ r2 = setup(data,
            bin_numeric_features=['age', 'bmi'],
            )
 
+xgb = create_model('xgboost')
+
+# save transformation pipeline and model
+save_model(xgb, model_name='models/')
