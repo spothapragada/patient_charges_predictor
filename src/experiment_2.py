@@ -16,5 +16,5 @@ r2 = setup(data,
 xgb = create_model('xgboost')
 
 # save transformation pipeline and model
-save_model(xgb, model_name='../models/20200530_insurance_xgbreg_deployment_harsha')
+save_model(xgb, '../models/20200530_insurance_xgbreg_deployment_harsha')
 
