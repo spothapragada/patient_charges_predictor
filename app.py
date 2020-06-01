@@ -5,7 +5,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-model = load_model('../models/20200530_insurance_xgbreg_deployment_harsha')
+model = load_model('20200530_insurance_xgbreg_deployment_harsha')
 cols = ['age', 'sex', 'bmi', 'children', 'smoker', 'region']
 
 
