@@ -2,6 +2,7 @@ from flask import Flask, request, render_template, jsonify
 from pycaret.regression import *
 import pandas as pd
 import numpy as np
+import config
 
 app = Flask(__name__)
 
